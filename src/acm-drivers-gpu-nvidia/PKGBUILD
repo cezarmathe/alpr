@@ -1,0 +1,11 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-drivers-gpu-nvidia
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="NVIDIA GPU drivers"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	nvidia-dkms
+)

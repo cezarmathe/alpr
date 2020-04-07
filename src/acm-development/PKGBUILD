@@ -1,0 +1,17 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-development
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of packages that I use for development"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	cloc
+	docker
+	docker-compose
+	docker-machine
+	gitin-bin
+	go
+	rustup
+)

@@ -1,0 +1,24 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-graphics
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of graphics-related packages(mesa & vulkan)"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+    # mesa
+    adriconf
+    glu
+    lib32-glu
+    lib32-libva-mesa-driver
+    lib32-mesa
+    lib32-mesa-vdpau
+    libva-mesa-driver
+    mesa
+    mesa-vdpau
+
+    # vulkan
+    vulkan-icd-loader
+    vulkan-mesa-layer
+)

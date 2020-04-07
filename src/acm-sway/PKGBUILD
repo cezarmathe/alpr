@@ -1,0 +1,34 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-sway
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of packages for a desktop environment based on sway"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	# useful stuff
+	bemenu # application launcher
+	grim # screenshot utility
+	slurp # select a region on the screen
+	redshift-wayland-git # redshift for wayland
+	wayvnc # vnc server for wayland
+	wf-recorder-git # wayland screen recorder
+
+    # wayland
+    lib32-wayland
+    qt5-wayland
+    wayland
+    wayland-protocols
+	wl-clipboard
+	wlroots
+
+    # sway stuff
+    sway
+    swaybg
+    swayidle
+    swaylock
+
+    # xorg on wayland
+    xorg-server-xwayland
+)

@@ -1,0 +1,26 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-desktop
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of packages for regular desktop usage"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	alacritty # terminal emulator
+	firefox
+	gv # pdf viewer
+	libappindicator-gtk2 # for system tray
+	libappindicator-gtk3 # for system tray
+	lxappearance # change gtk theme
+	nextcloud-client
+	materia-gtk-theme # gtk theme
+	papirus-icon-theme # gtk theme
+	ristretto # image viewer
+	syncthing
+	syncthing-gtk
+	syncthingtray
+	thunderbird # mail
+	transmission-gtk # torrents
+	vlc
+)

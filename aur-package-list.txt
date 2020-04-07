@@ -1,0 +1,11 @@
+aurutils
+downgrade
+gitin-bin
+nerd-fonts-complete
+redshift-wayland-git
+syncthingtray
+virtualbox-ext-oracle
+vscodium-bin
+wayvnc
+wf-recorder-git
+yay-bin

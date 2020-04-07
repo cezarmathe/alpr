@@ -1,0 +1,19 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-desktop-tools
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Tools with a graphical interface"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	bleachbit # cleaning
+	gparted # partitioning
+	hardinfo # system information
+	psensor # sensor gui
+	udevil # automounting
+	usbview
+	xarchiver
+	xdg-user-dirs
+	xfce4-taskmanager
+)

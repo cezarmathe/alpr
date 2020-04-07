@@ -1,0 +1,22 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-tools-extra
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of tools that I use(extended tools)"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	cups
+	dmidecode
+	ethtool
+	fdupes
+	htop
+	lm_sensors
+	lostfiles
+	lshw
+	rclone
+	stress
+	tmon
+	usbview
+)

@@ -1,0 +1,18 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-linux
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Linux firmware, kernel and the bootloader"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	dkms
+    linux-firmware
+    linux-lts
+	linux-lts-headers
+    linux-zen
+	linux-zen-headers
+
+	refind-efi
+)

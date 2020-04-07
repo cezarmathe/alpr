@@ -1,0 +1,10 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=
+pkgver=0.0.1
+pkgrel=1
+pkgdesc=""
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+)

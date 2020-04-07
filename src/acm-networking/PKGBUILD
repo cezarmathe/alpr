@@ -1,0 +1,19 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-networking
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Collection of packages for networking"
+arch=('any')
+url="http://rpi.local/acm/"
+license=('MIT')
+depends=(
+	# general dhcp client
+	dhcpcd
+
+	# network manager
+	networkmanager
+
+	# wireguard
+	wireguard-dkms
+	wireguard-tools
+)
