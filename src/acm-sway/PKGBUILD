@@ -1,7 +1,7 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
 pkgname=acm-sway
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Collection of packages for a desktop environment based on sway"
 arch=('any')
 url="http://rpi.local/acm/"
@@ -12,6 +12,7 @@ depends=(
 	grim # screenshot utility
 	slurp # select a region on the screen
 	redshift-wayland-git # redshift for wayland
+	waybar # status bar
 	wayvnc # vnc server for wayland
 	wf-recorder-git # wayland screen recorder
 
