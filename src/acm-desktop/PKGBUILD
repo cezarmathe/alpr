@@ -1,7 +1,7 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
 pkgname=acm-desktop
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Collection of packages for regular desktop usage"
 arch=('any')
 url="http://rpi.local/acm/"
@@ -20,6 +20,8 @@ depends=(
 	syncthing
 	syncthing-gtk
 	syncthingtray
+	tumbler # thumbnails
+	thunar # file manager
 	thunderbird # mail
 	transmission-gtk # torrents
 	vlc
