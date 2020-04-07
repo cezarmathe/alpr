@@ -1,7 +1,7 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
 pkgname=acm-tools
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Collection of tools that I use"
 arch=('any')
 url="http://rpi.local/acm/"
@@ -12,6 +12,7 @@ depends=(
 	downgrade
 	git
 	jq
+	man-db
 	neovim
 	neofetch
 	p7zip
