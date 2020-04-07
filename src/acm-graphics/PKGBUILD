@@ -1,7 +1,7 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
 pkgname=acm-graphics
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Collection of graphics-related packages(mesa & vulkan)"
 arch=('any')
 url="http://rpi.local/acm/"
@@ -21,4 +21,7 @@ depends=(
     # vulkan
     vulkan-icd-loader
     vulkan-mesa-layer
+
+	# tools
+	vdpauinfo
 )
