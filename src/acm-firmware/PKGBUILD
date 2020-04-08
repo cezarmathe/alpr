@@ -1,0 +1,12 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=acm-firmware
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Firmware for my computer"
+arch=('any')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+	aic94xx-firmware
+	wd719x-firmware
+)
