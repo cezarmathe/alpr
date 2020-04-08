@@ -4,7 +4,7 @@ pkgver=0.0.2
 pkgrel=2
 pkgdesc="Linux firmware, kernel and the bootloader"
 arch=('any')
-url="http://rpi.local/acm/"
+url="https://cezarmathe.com/"
 license=('MIT')
 depends=(
 	dkms

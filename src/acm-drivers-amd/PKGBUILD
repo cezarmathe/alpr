@@ -4,7 +4,7 @@ pkgver=0.0.1
 pkgrel=1
 pkgdesc="AMD CPU Drivers"
 arch=('any')
-url="http://rpi.local/acm/"
+url="https://cezarmathe.com/"
 license=('MIT')
 depends=(
     amd-ucode

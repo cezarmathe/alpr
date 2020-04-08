@@ -4,7 +4,7 @@ pkgver=0.0.1
 pkgrel=1
 pkgdesc="Collection of packages for virtualbox"
 arch=('any')
-url="http://rpi.local/acm/"
+url="https://cezarmathe.com/"
 license=('MIT')
 depends=(
 	virtualbox

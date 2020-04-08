@@ -4,7 +4,7 @@ pkgver=0.0.2
 pkgrel=2
 pkgdesc="Collection of tools that I use"
 arch=('any')
-url="http://rpi.local/acm/"
+url="https://cezarmathe.com/"
 license=('MIT')
 depends=(
     aurutils
