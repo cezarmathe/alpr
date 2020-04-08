@@ -1,0 +1,3 @@
+[ALPPR_REPO_NAME]
+SigLevel = Optional TrustAll
+Server = ALPR_URL
