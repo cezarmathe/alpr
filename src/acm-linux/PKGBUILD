@@ -1,7 +1,7 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
 pkgname=acm-linux
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.2
+pkgrel=2
 pkgdesc="Linux firmware, kernel and the bootloader"
 arch=('any')
 url="http://rpi.local/acm/"
@@ -11,8 +11,5 @@ depends=(
     linux-firmware
     linux-lts
 	linux-lts-headers
-    linux-zen
-	linux-zen-headers
-
 	refind-efi
 )
