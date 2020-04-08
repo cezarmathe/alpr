@@ -1,3 +1,4 @@
+aic94xx-firmware
 aurutils
 downgrade
 gitin-bin
@@ -7,5 +8,6 @@ syncthingtray
 virtualbox-ext-oracle
 vscodium-bin
 wayvnc
+wd719x-firmware
 wf-recorder-git
 yay-bin
