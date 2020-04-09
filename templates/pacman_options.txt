@@ -1,0 +1,3 @@
+CacheDir = /var/cache/pacman/pkg
+CacheDir = ALPR_URL
+CleanMethod = KeepCurrent
