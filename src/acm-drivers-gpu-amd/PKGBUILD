@@ -1,5 +1,5 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
-pkgname=acm-drivers-amd
+pkgname=acm-drivers-gpu-amd
 pkgver=0.0.2
 pkgrel=2
 pkgdesc="AMD GPU Drivers"
