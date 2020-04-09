@@ -4,5 +4,4 @@
 
 source "${HOME}/.config/alppr.conf" || exit 1
 
-printf "%s\n" "aur chroot --directory="${ALPPR_BUILD_ENV_DIR}" --no-build"
-aur chroot --directory="${ALPPR_BUILD_ENV_DIR}" --no-build
+mkarchroot "${ALPPR_BUILD_ENV_DIR}/root" base-devel git
