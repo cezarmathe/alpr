@@ -2,7 +2,7 @@ aic94xx-firmware
 aurutils
 downgrade
 gitin-bin
-nerd-fonts-complete
+nerd-fonts-hack
 redshift-wayland-git
 syncthingtray
 virtualbox-ext-oracle
