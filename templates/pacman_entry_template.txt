@@ -1,3 +1,7 @@
+# Put this at the end of /etc/pacman.conf
+# Replace ALPPR_REPO_NAME with the name of your repository(alppr)
+# Replace ALPPR_URI with the URI pointing at your local repository
+# (file:///home/username/.local/share/alppr/repository)
 [ALPPR_REPO_NAME]
 SigLevel = Optional TrustAll
-Server = ALPR_URL
+Server = ALPR_URI
