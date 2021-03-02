@@ -1,6 +1,0 @@
-# Put these directives inside /etc/pacman.conf
-# Replace ALPPR_URI with the URI pointing at your local repository
-# (file:///home/username/.local/share/alppr/repository)
-CacheDir = /var/cache/pacman/pkg
-CacheDir = ALPR_URI
-CleanMethod = KeepCurrent

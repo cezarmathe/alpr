@@ -1,11 +1,10 @@
 # Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
-pkgname=
-pkgver=0.0.1
+pkgname=tcx-example-package
+pkgver=0.1.0
 pkgrel=1
-pkgdesc=""
-arch=('any')
+pkgdesc="Example package."
+arch=('x86_64')
 url="https://cezarmathe.com/"
 license=('MIT')
-depends=(
-)
+depends=()
 install=$pkgname.install
