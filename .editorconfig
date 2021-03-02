@@ -11,3 +11,6 @@ indent_style = space
 
 [PKGBUILD]
 indent_style = tab
+
+[Makefile]
+indent_style = tab

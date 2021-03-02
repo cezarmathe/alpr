@@ -1,4 +1,1 @@
-build_environment
-cache
-repository
-alppr.conf
+local.mk
