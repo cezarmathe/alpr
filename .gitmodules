@@ -1,0 +1,18 @@
+[submodule "src/aic94xx-firmware"]
+	path = src/aic94xx-firmware
+	url = https://aur.archlinux.org/aic94xx-firmware.git
+[submodule "src/downgrade"]
+	path = src/downgrade
+	url = https://aur.archlinux.org/downgrade.git
+[submodule "src/gitin-bin"]
+	path = src/gitin-bin
+	url = https://aur.archlinux.org/gitin-bin.git
+[submodule "src/wd719x-firmware"]
+	path = src/wd719x-firmware
+	url = https://aur.archlinux.org/wd719x-firmware.git
+[submodule "src/yay-bin"]
+	path = src/yay-bin
+	url = https://aur.archlinux.org/yay-bin.git
+[submodule "src/virtualbox-ext-oracle"]
+	path = src/virtualbox-ext-oracle
+	url = https://aur.archlinux.org/virtualbox-ext-oracle.git
