@@ -1,0 +1,14 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-sound-system
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Collection of packages for the sound system."
+arch=('x86_64')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+	pamixer # pulseaudio command line mixer
+	pulseaudio
+	pulseaudio-alsa
+	pulseaudio-equalizer
+)

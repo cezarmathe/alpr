@@ -1,0 +1,20 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-filesystems
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Collection of packages for filesystems."
+arch=('x86_64')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+	# btrfs
+	btrfs-progs
+	# fat
+	exfat-utils
+	# filesystem in userspace
+	fuse
+	# gnome virtual fs
+	gvfs
+	# ntfs
+	ntfs-3g
+)

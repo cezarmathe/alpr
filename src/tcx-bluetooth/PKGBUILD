@@ -1,0 +1,14 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-bluetooth
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Collection of packages for bluetooth."
+arch=('x86_64')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+    bluez
+    bluez-utils
+    pulseaudio-bluetooth
+)
+install=$pkgname.install

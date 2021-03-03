@@ -1,0 +1,23 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-graphics
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Collection of graphics-related packages (mesa & vulkan)."
+arch=('x86_64')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+    # mesa
+    glu
+    # lib32-glu # 32 bit
+    # lib32-libva-mesa-driver # 32 bit
+    # lib32-mesa # 32 bit
+    # lib32-mesa-vdpau # 32 bit
+    libva-mesa-driver
+    mesa
+    mesa-vdpau
+
+    # vulkan
+    vulkan-icd-loader
+    vulkan-mesa-layers
+)

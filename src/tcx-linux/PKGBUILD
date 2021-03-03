@@ -1,0 +1,15 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-linux
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Linux firmware, kernel (lts) and the bootloader."
+arch=('x86_64')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+	dkms
+    linux-firmware
+    linux-lts
+	linux-lts-headers
+	refind
+)

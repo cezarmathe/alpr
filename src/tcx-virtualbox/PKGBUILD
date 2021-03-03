@@ -1,0 +1,16 @@
+# Maintainer: Armand Cezar Mathe <me@cezarmathe.com>
+pkgname=tcx-virtualbox
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Collection of packages for virtualbox."
+arch=('any')
+url="https://cezarmathe.com/"
+license=('MIT')
+depends=(
+	virtualbox
+	virtualbox-ext-oracle
+	virtualbox-guest-dkms
+	virtualbox-guest-iso
+	virtualbox-guest-utils
+	virtualbox-host-dkms
+)
